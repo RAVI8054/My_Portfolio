@@ -45,6 +45,7 @@ function Skills() {
         { icon: FaNodeJs, label: "Node.js", className: "text-[#68A063]" },
         { icon: SiExpress, label: "Express.js", className: "text-[#999999]" },
         { icon: MdApi, label: "REST API", className: "text-[#4FC3F7]" },
+        
     ];
 
     const databases = [
