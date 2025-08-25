@@ -118,9 +118,9 @@ function ProjectsSection() {
                             This project is an AI-powered movie search chat application that combines natural language understanding with intelligent query handling
                             `,
                             images: [
-                                "/assets/hang 1.png",
-                                "/assets/hangman 2.png",
-                                "/assets/hangman 3.png",
+                                "/assets/Ai 1.png",
+                                "/assets/Ai 2.png",
+                                "/assets/Ai 3.png",
                             ],
                             techStack: ["LangChain", "Groq", "JavaScript", "RESTapi", "MongoDB", "React", "Tool Calling"],
                             features: [
