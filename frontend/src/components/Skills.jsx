@@ -5,8 +5,8 @@ import {
 } from "react-icons/fa";
 
 import {
-    SiNextdotjs, SiTailwindcss, SiMysql, SiMongodb,
-    SiFigma, SiVercel, SiExpress
+    SiTailwindcss, SiMysql, SiMongodb,
+    SiFigma, SiVercel, SiExpress, SiNextdotjs
 } from "react-icons/si";
 
 import { MdApi } from "react-icons/md";
@@ -32,6 +32,7 @@ function RenderIcon() {
 function Skills() {
     const sectionRef = useRef(null);
 
+    // Frontend Skills
     const frontendSkills = [
         { icon: FaJs, label: "JavaScript", className: "text-[#F7DF1E]" },
         { icon: FaReact, label: "React.js", className: "text-[#61DBFB]" },
@@ -41,30 +42,50 @@ function Skills() {
         { icon: SiTailwindcss, label: "Tailwind CSS", className: "text-[#38BDF8]" },
     ];
 
+    // Backend Skills
     const backendSkills = [
         { icon: FaNodeJs, label: "Node.js", className: "text-[#68A063]" },
         { icon: SiExpress, label: "Express.js", className: "text-[#999999]" },
         { icon: MdApi, label: "REST API", className: "text-[#4FC3F7]" },
-        
     ];
 
+    // Database Skills
     const databases = [
         { icon: SiMongodb, label: "MongoDB", className: "text-[#4DB33D]" },
+        { icon: SiMysql, label: "MySQL", className: "text-[#00758F]" },
     ];
 
+    // Tools & Platforms
     const tools = [
         { icon: FaGitAlt, label: "Git", className: "text-[#F1502F]" },
         { icon: FaGithub, label: "GitHub", className: "text-black dark:text-white" },
         { icon: SiFigma, label: "Figma", className: "text-[#A259FF]" },
         { icon: SiVercel, label: "Vercel", className: "text-black dark:text-white" },
         { icon: RenderIcon, label: "Render", isCustom: true },
+        { icon: FaJs, label: "Tool Calling (JS)", className: "text-[#FF9800]" },
+    ];
+
+    // Soft Skills
+    const softSkills = [
+        { icon: FaJs, label: "Problem Solving", className: "text-[#FF5722]" },
+        { icon: FaReact, label: "Communication", className: "text-[#61DBFB]" },
+        { icon: FaGithub, label: "Teamwork", className: "text-[#29B6F6]" },
+        { icon: SiFigma, label: "Adaptability", className: "text-[#A259FF]" },
+    ];
+
+    // AI & Advanced
+    const aiSkills = [
+        { icon: FaReact, label: "AI & Machine Learning Models", className: "text-[#61DBFB]" },
+        { icon: FaJs, label: "LangChain & LLM Research", className: "text-[#FF5722]" },
+        { icon: FaGithub, label: "Web3 & Blockchain (dApps)", className: "text-[#29B6F6]" },
     ];
 
     useEffect(function () {
         const sections = sectionRef.current.querySelectorAll(".skill-block");
 
         sections.forEach(function (block, index) {
-            gsap.fromTo(block,
+            gsap.fromTo(
+                block,
                 { opacity: 0, y: 50 },
                 {
                     opacity: 1,
@@ -76,7 +97,7 @@ function Skills() {
                         trigger: block,
                         start: "top 80%",
                         toggleActions: "play none none none",
-                    }
+                    },
                 }
             );
         });
@@ -89,12 +110,19 @@ function Skills() {
                 <div className="skill-block">
                     <h2 className="text-3xl font-bold mb-2">My Skills</h2>
                     <p className="text-gray-500 dark:text-gray-400 text-lg">
-                        Technologies and tools I&apos;ve worked with throughout my projects and experience
+                        Technologies, tools, and strengths I&apos;ve developed through my projects and experience
                     </p>
                 </div>
 
                 {/* Skill Groups */}
-                {[["Front End", frontendSkills], ["Back End", backendSkills], ["Databases", databases], ["Tools & Platforms", tools]].map(function ([title, skillList]) {
+                {[
+                    ["Front End", frontendSkills],
+                    ["Back End", backendSkills],
+                    ["Databases", databases],
+                    ["Tools & Platforms", tools],
+                    ["Soft Skills", softSkills],
+                    ["AI & Advanced", aiSkills],
+                ].map(function ([title, skillList]) {
                     return (
                         <div key={title} className="skill-block">
                             <h3 className="text-2xl font-semibold mb-4">{title}</h3>

@@ -113,24 +113,23 @@ function ProjectsSection() {
 
                     <ProjectCard
                         project={{
-                            title: "Hangman Game",
-                            description:
-                                "A fun, browser-based implementation of the classic Hangman game with interactive UI, difficulty levels, and letter-based guessing logic.",
+                            title: "AI Web Movie Chatbot",
+                            description: `
+                            This project is an AI-powered movie search chat application that combines natural language understanding with intelligent query handling
+                            `,
                             images: [
                                 "/assets/hang 1.png",
                                 "/assets/hangman 2.png",
                                 "/assets/hangman 3.png",
                             ],
-                            techStack: ["HTML", "CSS", "JavaScript"],
+                            techStack: ["LangChain", "Groq", "JavaScript", "RESTapi", "MongoDB", "React", "Tool Calling"],
                             features: [
-                                "Random word generation",
-                                "Letter-by-letter input system",
-                                "Visual hangman drawing for each wrong guess",
-                                "Win/lose alerts with reset option",
-                                "Mobile-responsive layout",
+                                "Implemented intelligent route detection to auto-handle user intent such as title-based, genre, rating, and year-based movie searches",
+                                "Built a smart backend architecture where AI interprets messages and interacts with specific search routes for optimized database querying",
+                                "Integrated LLMs to autonomously parse and trigger relevant search routes without manual input mapping.",
                             ],
-                            liveUrl: "https://hangman-game-p444.vercel.app/",
-                            githubUrl: "https://github.com/ankitNegiDev/HangmanGame"
+                            liveUrl: "https://ai-powered-movie-search-chat-app-in.vercel.app/",
+                            githubUrl: "https://github.com/RAVI8054/AI-Powered-Movie-Search-Chat-App-in-db"
                         }}
                     />
                 </div>
