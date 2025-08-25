@@ -16,7 +16,7 @@ function ProjectsSection() {
                             description:
                                 "A full-stack YouTube clone built with video uploading, playback, user channels, likes, comments, and authentication. Users can explore trending videos, search content, and subscribe to channels.",
                             images: [
-                                "/assets/yt finial.png",
+                                "/assets/yt 1.png",
                                 "/assets/yt 2.png",
                                 "/assets/yt 3.png",
                                 "/assets/yt 4.png",
@@ -42,9 +42,9 @@ function ProjectsSection() {
                                 "Trending, search, and video playback",
                                 "Channel dashboard for managing content",
                             ],
-                            liveUrl: "https://my-yt-project-omega.vercel.app",
-                            githubUrl:"https://github.com/ankitNegiDev/MY_YT_PROJECT",
-                            demoVideoUrl: "https://drive.google.com/file/d/1JsrwvqJHxpgWnUDfttcl1GvrLBLeWO1N/view"
+                            liveUrl: "https://you-tube-dssm1xhzr-ravi-kumars-projects-5dba0fe6.vercel.app/",
+                            githubUrl: "https://github.com/RAVI8054/YouTube",
+                            demoVideoUrl: "#"
 
                         }}
                     />
@@ -74,8 +74,8 @@ function ProjectsSection() {
                                 "Modern and responsive UI with Tailwind CSS",
                                 "Built using React and Redux for state management"
                             ],
-                            liveUrl: "https://shoopy-globe-935v.vercel.app/",
-                            githubUrl:"https://github.com/ankitNegiDev/Shoopy-Globe"
+                            liveUrl: "https://shoppy-globe-e-commerce-fronted.vercel.app/",
+                            githubUrl: "https://github.com/RAVI8054/ShoppyGlobe-E-commerce-Fronted"
                         }}
                     />
 
@@ -85,7 +85,6 @@ function ProjectsSection() {
                             description:
                                 "Manage and add books with category-based browsing and real-time search. Seamlessly track borrowings with authentication and dashboard control",
                             images: [
-                                "/assets/library 1.png",
                                 "/assets/library 2.png",
                                 "/assets/library 3.png",
                                 "/assets/library 4.png",
@@ -106,8 +105,8 @@ function ProjectsSection() {
                                 "Responsive, user-friendly interface for library browsing",
                                 "Open-access system allowing anyone to view and manage the book catalog"
                             ],
-                            liveUrl: "https://library-system-pink.vercel.app/",
-                            githubUrl:"https://github.com/ankitNegiDev/LibrarySystem",
+                            liveUrl: "https://online-library-system-chi.vercel.app/",
+                            githubUrl: "https://github.com/RAVI8054/Online_Library_System",
                         }}
                     />
 
@@ -131,7 +130,7 @@ function ProjectsSection() {
                                 "Mobile-responsive layout",
                             ],
                             liveUrl: "https://hangman-game-p444.vercel.app/",
-                            githubUrl:"https://github.com/ankitNegiDev/HangmanGame"
+                            githubUrl: "https://github.com/ankitNegiDev/HangmanGame"
                         }}
                     />
                 </div>

@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ProjectsSection from './components/ProjectSection';
@@ -14,10 +15,11 @@ function App() {
                 {/* Common wrapper to ensure alignment across sections */}
                 <div className="w-full max-w-6xl mx-auto px-6 sm:px-8 md:px-12 lg:px-16 space-y-20">
                     <About />
+                    <Experience />
                     <Skills />
                     <ProjectsSection />
-                    <Contact/>
-                    <Footer/>
+                    <Contact />
+                    <Footer />
                 </div>
             </main>
         </>
