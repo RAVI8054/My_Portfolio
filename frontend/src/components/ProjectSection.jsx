@@ -51,6 +51,27 @@ function ProjectsSection() {
 
                     <ProjectCard
                         project={{
+                            title: "AI Web Movie Chatbot",
+                            description: `
+                            This project is an AI-powered movie search chat application that combines natural language understanding with intelligent query handling
+                            `,
+                            images: [
+                                "/assets/Ai 1.png",
+                                "/assets/Ai 2.png",
+                                "/assets/Ai 3.png",
+                            ],
+                            techStack: ["LangChain", "Groq", "JavaScript", "RESTapi", "MongoDB", "React", "Tool Calling"],
+                            features: [
+                                "Implemented intelligent route detection to auto-handle user intent such as title-based, genre, rating, and year-based movie searches",
+                                "Built a smart backend architecture where AI interprets messages and interacts with specific search routes for optimized database querying",
+                                "Integrated LLMs to autonomously parse and trigger relevant search routes without manual input mapping.",
+                            ],
+                            liveUrl: "https://ai-powered-movie-search-chat-app-in.vercel.app/",
+                            githubUrl: "https://github.com/RAVI8054/AI-Powered-Movie-Search-Chat-App-in-db"
+                        }}
+                    />
+                    <ProjectCard
+                        project={{
                             title: "Shoppy Globe",
                             description:
                                 "A complete e-commerce platform with product listings, cart, and payment integration. Users can explore categories, view detailed product pages, and place orders smoothly.",
@@ -111,27 +132,7 @@ function ProjectsSection() {
                     />
 
 
-                    <ProjectCard
-                        project={{
-                            title: "AI Web Movie Chatbot",
-                            description: `
-                            This project is an AI-powered movie search chat application that combines natural language understanding with intelligent query handling
-                            `,
-                            images: [
-                                "/assets/Ai 1.png",
-                                "/assets/Ai 2.png",
-                                "/assets/Ai 3.png",
-                            ],
-                            techStack: ["LangChain", "Groq", "JavaScript", "RESTapi", "MongoDB", "React", "Tool Calling"],
-                            features: [
-                                "Implemented intelligent route detection to auto-handle user intent such as title-based, genre, rating, and year-based movie searches",
-                                "Built a smart backend architecture where AI interprets messages and interacts with specific search routes for optimized database querying",
-                                "Integrated LLMs to autonomously parse and trigger relevant search routes without manual input mapping.",
-                            ],
-                            liveUrl: "https://ai-powered-movie-search-chat-app-in.vercel.app/",
-                            githubUrl: "https://github.com/RAVI8054/AI-Powered-Movie-Search-Chat-App-in-db"
-                        }}
-                    />
+               
                 </div>
             </div>
         </section>
